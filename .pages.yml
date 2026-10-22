@@ -1,11 +1,11 @@
 content:
-  - name: homepage
-    label: Homepage
+  - name: Homepage
+    label: "Homepage Test"
     type: file
     path: index.md
     format: yaml-frontmatter
     fields:
-      - name: title
+      - name: test
         type: string
       - name: body
         type: rich-text
