@@ -2,5 +2,6 @@ content:
   - name: test
     label: Fuyu no Kanjishita
     type: collection
-    path: ranobe 1
+    path: ranobe-1
     format: yaml-frontmatter
+    filename: "testing.md"
