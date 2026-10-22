@@ -1,0 +1,2 @@
+# AkahaneShizuna.github.io
+test
