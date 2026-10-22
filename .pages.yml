@@ -2,7 +2,7 @@ content:
   - name: Homepage
     label: "Homepage Test"
     type: file
-    path: index.md
+    path: index.html
     format: yaml-frontmatter
     fields:
       - name: test
