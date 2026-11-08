@@ -1,34 +1,42 @@
+
+/*main */
+main {
+    margin-left: 260px;
+    padding: 20px;
+}
+
 /*page background yes*/
 body {
-    background-color: #15171c;
-    color: #e8eaf0;
-    font-family: LexendDeca, sans-serif;
     margin: 0;
-    line-height: 1.6;
-    margin-top: 100px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f1f4;
+}
+
+/*portion of website*/
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 /*thing at the top of the website*/
 header {
     background-color: #222630;
+    color: white;
     padding: 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
 }
 
 /* navigation shit i... yes */
 /* nav calls all nav*/
 nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 12px;
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    float: left;
 }
 
-/* calls only a */
+
+/* this is for testing */
 nav a {
     background-color: #83d1d652;
     color: #ffffff;
@@ -42,29 +50,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
-
-/* stop image go stretchy */
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-video {
-    max-width: 100%;
-    height: auto;
-}
-
-
-/*heading*/
-h1 {
-    color: blue;
-    font-size: 36px;
-}
-
 /* self explanatory stop commenting */
 footer {
     background-color: #222630;
-    color: #aeb5c4;
-    text-align: center;
-    padding: 16px;
+    color: white;
+    padding: 20px;
 }
