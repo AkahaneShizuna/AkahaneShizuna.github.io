@@ -1,8 +1,8 @@
 
 /*main */
 main {
-    margin-left: 260px;
-    padding: 20px;
+    flex: 1;                /* takes all the remaining space */
+  padding: 20px;
 }
 
 /*page background yes*/
@@ -13,11 +13,19 @@ body {
 }
 
 /*portion of website*/
+.section1{
+	display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
 section {
     background-color: white;
     padding: 20px;
+	margin: 10px;
+	margin-left: 10px;
     margin-bottom: 20px;
 }
+
 
 /*thing at the top of the website*/
 header {
@@ -27,26 +35,26 @@ header {
 }
 
 /* navigation shit i... yes */
-/* nav calls all nav*/
-nav {
-    background-color: white;
-    width: 200px;
-    padding: 20px;
-    float: left;
+.navlayout {
+    display: flex;
 }
 
+nav {
+   width: 200px;
+  flex-shrink: 0;
+	/* > shrink stop the sidebar */
+  background-color: white;
+  padding: 20px;
+}
 
-/* this is for testing */
 nav a {
-    background-color: #83d1d652;
-    color: #ffffff;
-    margin: 5px;
-    padding: 10px;
-    border-radius: 20px;
+    display: block;
+    padding: 8px 0;
+    text-decoration: none;
+    color: #3458b4;
 }
 
 nav a:hover {
-    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -55,4 +63,17 @@ footer {
     background-color: #222630;
     color: white;
     padding: 20px;
+}
+
+/* ____________________________Text and fonts_______________________________________________________ */
+
+
+h1{
+	font-size: 20px;
+	
+}
+
+.pfootnote{
+	font-size: 12px;
+	color: darkgrey;
 }
